@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>タイピング記録アプリ</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <h1>タイピング記録アプリ</h1>
+            <div class="blank">
+                <h2 class="first goal-points">e-typingマスター2級合格条件</h2>
+                <ul>
+                    <li class="first goal-points">単語：250点</li>
+                    <li class="first goal-points">短文：270点</li>
+                    <li class="first goal-points">長文：280点</li>
+                </ul>
+            </div>
+            <div class="blank">
+                <h2 class="first motivation">目標、動機</h2>
+                <p class="first motivation">タイピングが早くなりたい。ミスを減らしてPCスキルを付けたい。</p>
+            </div>
+            <div class="blank">
+                <h2 class="add">追加</h2>
+                <div class="input-area">    
+                    <p class="add"><span>日付</span></p>
+                    <input type="date" id="record-date">
+                    <p class="add"><span>画像</span></p>
+                    <input type="file" id="record-file"> 
+                    <p class="add"><span>コメント</span></p>
+                    <textarea id="record-comment"></textarea>
+                    <br>
+                    <button id="save-button">保存</button>
+                </div>
+            </div>
+            <div id="record-list"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
